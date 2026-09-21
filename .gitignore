@@ -43,3 +43,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+# Secure Firebase Config
+lib/core/firebase_options.dart
+# Ignore Firebase cache
+.firebase/
