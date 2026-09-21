@@ -71,7 +71,7 @@ class _StoryShareDialogState extends State<StoryShareDialog> {
     }
   }
 
-  // 🎨 MASTER THEME BUILDER
+  //  THEME BUILDER
   Widget _buildTemplate() {
     String mvpName = 'UNKNOWN';
     int mvpKills = 0;

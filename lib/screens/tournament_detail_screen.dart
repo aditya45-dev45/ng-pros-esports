@@ -74,7 +74,7 @@ class TournamentDetailScreen extends StatelessWidget {
             onPressed: () {
               Clipboard.setData(ClipboardData(
                   text:
-                  '🏆 $tournamentName\nTotal Pts: $overallPts | Kills: $overallKills\n#NGPROS'));
+                  ' $tournamentName\nTotal Pts: $overallPts | Kills: $overallKills\n#NGPROS'));
               ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
                   content: Text('Stats copied to clipboard! 📋'),
                   backgroundColor: AppTheme.secondary));
